@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Multilingüe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .language-buttons {
+            margin-bottom: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-buttons">
+        <button onclick="changeLanguage('es')">Español</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+
+    <div id="content">
+        <!-- Español -->
+        <div class="lang es">
+            <h1>Bienvenido a nuestra página web</h1>
+            <p>Esta es una página de ejemplo con contenido en dos idiomas.</p>
+        </div>
+
+        <!-- Inglés -->
+        <div class="lang en hidden">
+            <h1>Welcome to our website</h1>
+            <p>This is an example page with content in two languages.</p>
+        </div>
+    </div>
+
+    <script>
+        function changeLanguage(lang) {
+            // Oculta todo el contenido
+            document.querySelectorAll('.lang').forEach(element => {
+                element.classList.add('hidden');
+            });
+
+            // Muestra el contenido del idioma seleccionado
+            document.querySelectorAll(`.${lang}`).forEach(element => {
+                element.classList.remove('hidden');
+            });
+        }
+    </script>
+</body>
+</html>

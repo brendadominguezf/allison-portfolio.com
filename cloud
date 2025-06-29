@@ -1,0 +1,157 @@
+Copyright©2024
+
+/*
+<div class="title-cards">
+      <h2>Work</h2>
+</div>
+<div class="container-card">
+  <div class="card">
+    <figure>
+      <img src="https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_1280.jpg"/>
+    </figure>
+    <div class="contenido-card">
+      <h3>Diseño Gràfico</h3>
+      <p>
+          Podemos crear la identidad corporativa de tu empresa. Diseño ,
+          Maquetación de folletos, Catálogos, Papelería y mucho más.
+      </p>
+      <a href="#">Leer Màs</a>
+    </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img
+            src="https://cdn.pixabay.com/photo/2015/11/05/09/52/touch-screen-1023966_1280.jpg"
+          />
+        </figure>
+        <div class="contenido-card">
+          <h3>Gestión de Redes</h3>
+          <p>
+            Nosotros creamos y optimizamos tus perfiles en las Redes Sociales.
+            Importantes para que tu presencia online sea completa.
+          </p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/08/05/12/36/software-development-6523979_1280.jpg"
+          />
+        </figure>
+        <div class="contenido-card">
+          <h3>Desarrollo Web</h3>
+          <p>
+            Creamos tu página web utilizando las últimas tecnologías
+            disponibles. Una Web adaptativa a tu móvil o Tablet y con un gestor
+            de contenido fácil.
+          </p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+    </div>
+*/
+
+/*CS
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+
+body{
+    font-family: "Montserrat", serif;
+}
+
+header
+
+header{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    transition: 1.0s;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.languages{
+    display: flex;
+    gap: .25rem;
+}
+
+.lang-button{
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+header .logo{
+    position: relative;
+    color: #F3F3E0;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+header ul li a{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin: o 25px;
+    text-decoration: none;
+    color: #F3F3E0;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+header.abajo{
+    background-color: #608BC1;
+    padding: 15px 20px;
+}
+
+header.abajo .logo,
+header.abajo ul li a{
+    color: #CBDCEB;
+}
+
+navegación
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navegation ul{
+    list-style: none;
+}
+
+.nav > li{
+    position: relative;
+    display: inline-block;
+}
+
+.nav > li > a{
+    display: block;
+    padding: 1px 20px;
+    text-decoration: none;
+    color: #F3F3E0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav li a:hover{
+    color: #CBDCEB;
+    transition: all .3s;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+*/
